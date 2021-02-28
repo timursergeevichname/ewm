@@ -22,7 +22,7 @@
 
 #include "chr.h"
 #include "sdl.h"
-#include "tty.h"
+#include "tty.h"mm
 
 struct ewm_tty_t *ewm_tty_create(SDL_Renderer *renderer, SDL_Color color) {
    struct ewm_tty_t *tty = malloc(sizeof(struct ewm_tty_t));
